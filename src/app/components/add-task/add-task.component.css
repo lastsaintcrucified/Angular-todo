@@ -1,0 +1,13 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+form label {
+  margin-right: 40px;
+}
+.di {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
