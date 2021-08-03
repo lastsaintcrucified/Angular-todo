@@ -4,7 +4,7 @@ import { Task } from 'src/app/Task';
 import { Observable, of } from 'rxjs';
 const httpOptions = {
   headers: new HttpHeaders({
-    'Content-Type': 'application',
+    'Content-Type': 'application/json',
   }),
 };
 @Injectable({
