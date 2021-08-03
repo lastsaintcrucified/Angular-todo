@@ -1,4 +1,4 @@
-<form (ngSubmit)="onSubmit()">
+<form *ngIf="showAddTask" (ngSubmit)="onSubmit()">
   <div class="form-contol di">
     <label for="text">Task</label>
     <input
@@ -28,7 +28,7 @@
       id="reminder"
     />
   </div>
-  {{ text }}
+
   <div class="form-contol di">
     <input type="submit" value="Save Task" class="btn btn-block" />
   </div>

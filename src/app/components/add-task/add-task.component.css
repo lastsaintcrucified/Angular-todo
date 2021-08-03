@@ -3,11 +3,15 @@ form {
   flex-direction: column;
   justify-content: start;
 }
+form input {
+  padding: 10px;
+}
 form label {
   margin-right: 40px;
+  margin-bottom: 10px;
 }
 .di {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 20px;
 }
